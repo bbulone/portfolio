@@ -87,9 +87,9 @@ nav ul li {
     background-repeat: no-repeat;
     background-size: contain;
     transition: all 0.5s;
-    // zoom: 200%;
+    zoom: 200%;
     height: 100px;
-    // border-radius: 20px;
+    border-radius: 20px;
     width: 200px;
 }
 
