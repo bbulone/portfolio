@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&display=swap');
+@font-face {
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/overpass/v5/qFdA35WCmI96Ajtm81keds7N4ho.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: "Futura-bold";
+    src: url("../fonts/Futura-Bold.ttf") format("ttf");
+}
+
+body {
+    min-height: 100vh;
+    font-family: 'Montserrat';
+    scroll-behavior: smooth;
+}
+
+rect {
+    animation: rotate-right infinite 2s alternate;
+    overflow: hidden;
+}
+
+@-webkit-keyframes rotate-right {
+    from {
+        -webkit-transform: translateX(0px);
+    }
+    to {
+        fill: rgb(55, 212, 115);
+        -webkit-transform: translateX(20px);
+    }
+}
+
+.container {
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    gap: 1em;
+    grid-template-columns: 1fr;
+    max-width: 100%;
+    justify-items: center;
+    padding-bottom: 10px;
+}
+
+.container h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+svg {
+    width: 80%;
+    height: 100%;
+    padding: 20px;
+}
+
+@keyframes monTexte {
+    0% {
+        background-position-y: 50px;
+    }
+    100% {
+        background-position-y: 300px;
+    }
+}
+
+.moi img {
+    width: 200px;
+}
+
+.contenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contenu img {
+    width: 150px;
+    height: 220px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    // box-shadow: 13px 4px 2px -6px rgba(255, 255, 255, 0.315);
+    border-radius: 20px;
+}
+
+.titre {
+    text-transform: uppercase;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 4px;
+}
+
+.titre1 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    color: rgb(12, 12, 12);
+    font-size: 45px;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: 2px;
+}
+
+.stage {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-items: center;
+}
+
+.stage p {
+    color: white;
+    font-weight: 300;
+    text-align: center;
+    padding: 16px;
+}
+
+.container2 {
+    // background-image: url(../img/Team\ work_Monochromatic.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.fa-wordpress {
+    color: rgb(66, 88, 216);
+    font-size: 70px;
+}
+
+.fa-html5 {
+    font-size: 70px;
+    color: rgb(223, 149, 52);
+}
+
+.fa-php {
+    font-size: 70px;
+    color: rgb(3, 3, 3);
+}
+
+.fa-js-square {
+    font-size: 70px;
+    color: rgb(212, 195, 35);
+}
+
+.contenu2 {
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
+
+.contenu2 img {
+    height: 300px;
+    width: 300px;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgb(63, 61, 86);
+}
+
+.hobbies {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('../img/piano.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.hobbies p {
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (min-width:700px) {
+    .container {
+        grid-template-columns: 1fr 1fr;
+    }
+    .titre {
+        font-size: 70px;
+        font-weight: 600;
+    }
+    .stage {
+        margin-top: 50px;
+        padding-bottom: 150px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .hobbies {
+        background-position: center;
+    }
+}
+
+.myinformations {
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // background-color: white;
+}
+
+.myinformations a {
+    letter-spacing: 2px;
+    color: white;
+}
+
+.linkedin {
+    margin: 40px;
+}
+
+.linkedin a {
+    transition: ease 0.5s;
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    background-color: #0e76a8;
+    border: solid 2px black;
+    width: fit-content;
+}
+
+.linkedin a:hover {
+    border: solid white 4px;
+}
