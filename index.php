@@ -74,7 +74,13 @@
 
     </div>
 </div>
-
+<div class="presentation">
+    <h2>About me</h2>
+    <p>My name is Bulone Benjamin and I am a student in LP DIM in Calais </p>
+    <p>Currently, i Work at 14h28 agency where i had the opportunity to develop my IT skills</p>
+    <p>During my internship, before joining 14h28 agency, I had the opportunity to develop a Wordpress website and I also learned how to rank a website on google</p>
+    <p>I finally succed to rank the website and he's now on the first result in Google when you type the name of the company i worked for.</p>
+</div>
 
 <div class="container2" id="skills">
     <div class="contenu2">
@@ -103,10 +109,10 @@
     <div class="titre">Contact me</div>
 
     <div class="myinformations">
-        <p>Mail : <a href="mailto:benja.bulone@gmail.com">benja.bulone@gmail.com</a>  </p>
+        <p>Mail : <a href="mailto:benja.bulone@gmail.com">benja.bulone@gmail.com</a> </p>
 
         <div class="linkedin">
-        <a alt='linkedin' href="https://www.linkedin.com/in/benjamin-bulone-b422671b0/">Linkedin</a>
+            <a alt='linkedin' href="https://www.linkedin.com/in/benjamin-bulone-b422671b0/">Linkedin</a>
         </div>
     </div>
 

@@ -35,6 +35,7 @@
 
                 <ul>
                     <div class="logo">
+                        Benjamin
                     </div>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#hobbies">Hobbies</a></li>
