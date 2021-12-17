@@ -70,7 +70,7 @@
     <div class="contenu">
         <h1> Benjamin Bulone</h1>
         <p>Web developer at 14h28 Agency</p>
-        <img src="img/moi.jpg" alt="">
+      
 
     </div>
 </div>

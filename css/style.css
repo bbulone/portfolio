@@ -42,7 +42,6 @@ rect {
     grid-template-columns: 1fr;
     max-width: 100%;
     justify-items: center;
-    padding-bottom: 10px;
 }
 
 .container h1 {
@@ -73,17 +72,26 @@ svg {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
+    background-image: url('../img/moi.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    color: white;
+    padding: 10px;
 }
-
-.contenu img {
+.contenu h1{
+    color: white;
+}
+/* .contenu img {
     width: 150px;
     height: 220px;
     margin-top: 20px;
     margin-bottom: 20px;
-    // box-shadow: 13px 4px 2px -6px rgba(255, 255, 255, 0.315);
+     box-shadow: 13px 4px 2px -6px rgba(255, 255, 255, 0.315);
     border-radius: 20px;
-}
+} */
 
 .titre {
     text-transform: uppercase;
@@ -118,7 +126,7 @@ svg {
 }
 
 .container2 {
-    // background-image: url(../img/Team\ work_Monochromatic.svg);
+/*  background-image: url(../img/Team\ work_Monochromatic.svg); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
